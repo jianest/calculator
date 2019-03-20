@@ -1,0 +1,4 @@
+.box .top,.box .content {background-color:SkyBlue;}
+.box {border-color:SkyBlue;}
+.box .content .item {border-color:SkyBlue;background: -webkit-linear-gradient(top,PowDerBlue,skyblue);}
+.box .content .item:hover{background: -webkit-linear-gradient(top,skyblue,PowDerBlue);}

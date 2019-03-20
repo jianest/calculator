@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-size: 13px;
+	background: whitesmoke;
+}
+#skin-box {
+	position: relative;
+	width: 350px;
+	height: 30px;
+	margin: 5px auto;
+}
+#skin-box button {
+	width: 15px;
+	height: 15px;
+	outline: 0;
+	cursor: pointer;
+	border:0;
+}
+#skin-black {
+	background-color: #333;
+}
+#skin-white {
+	background-color: white;
+}
+#skin-grey {
+	background-color: grey;
+}
+#skin-pink {
+	background-color: pink;
+}
+#skin-green {
+	background-color: green;
+}
+#skin-skyblue {
+	background-color: skyblue;
+}
+#skin-purple {
+	background-color: purple;
+}
+#skin-red {
+	background-color: Crimson;
+}
+#skin-orange {
+	background-color: orange;
+}
+
+#skin-box button:focus {
+	width: 20px;
+	height: 20px;
+}
+
+
+.box {
+  position: relative;
+  width: 350px;
+  height: 580px;
+  margin: 5px auto;
+  border: 5px solid #333;
+  border-radius: 15px;
+}
+
+.box .top {
+  color: white;
+  height: 20px;
+  line-height: 20px;
+  background-color: #333;
+  text-align: right;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.box .screen1 {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 250px;
+  height: 40px;
+  text-align: right;
+  font-size: 18px;
+  padding: 5px 15px 5px 0;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.box .screen2 {
+  position: absolute;
+  right: 0;
+  top: 90px;
+  width: 250px;
+  height: 90px;
+  line-height: 40px;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px 15px 0 0;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.box .screen3 {
+  position: absolute;
+  width: 85px;
+  height: 140px;
+}
+
+.box .screen3 img {
+  width: 85px;
+  height: 140px;
+}
+
+.box .content {
+  position: relative;
+  top: 140px;
+  height: 400px;
+  background-color: #333;
+}
+
+.box .content .item {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 10px;
+  border-color: #999;
+}
+
+.type1,
+.type5 {
+  width: 78px;
+  height: 60px;
+  background: -webkit-linear-gradient(top, lightgrey, #333);
+}
+
+.type1:hover,
+.type5:hover {
+  background: -webkit-linear-gradient(top, #333, lightgrey);
+}
+
+.type2 {
+  width: 78px;
+  height: 60px;
+  background: -webkit-linear-gradient(top, grey, #000);
+}
+
+.type2:hover,
+.type3:hover,
+.type4:hover {
+  background: -webkit-linear-gradient(top, #000, grey);
+}
+
+.type3 {
+  width: 160px;
+  height: 60px;
+  line-height: 38px;
+  background: -webkit-linear-gradient(top, grey, #000);
+}
+
+.type4 {
+  width: 78px;
+  height: 130px;
+  background: -webkit-linear-gradient(top, grey, #000);
+}
+/* 移动端样式 */
+@media all and (max-width: 639px) {
+	#skin-box {
+		display: none;
+	}
+	
+	.box {
+	  margin: 40px auto 0;
+	}
+}

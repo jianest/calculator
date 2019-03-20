@@ -1,0 +1,4 @@
+.box .top,.box .content {background-color:Crimson;}
+.box {border-color:Crimson;}
+.box .content .item {border-color:Crimson;background: -webkit-linear-gradient(top,LightPink,Crimson);}
+.box .content .item:hover{background: -webkit-linear-gradient(top,Crimson,LightPink);}

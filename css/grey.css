@@ -1,0 +1,4 @@
+.box .top,.box .content {background-color:grey;}
+.box {border-color:grey;}
+.box .content .item {border-color:grey;background: -webkit-linear-gradient(top,lightgrey,grey);}
+.box .content .item:hover{background: -webkit-linear-gradient(top,grey,lightgrey);}

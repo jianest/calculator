@@ -1,0 +1,6 @@
+.box .top,.box .content {background-color:white;}
+.box {border-color:white;}
+.box .content .item {border-color:white;background: -webkit-linear-gradient(top,whitesmoke,white); color: #333;}
+.box .content .item:hover{background: -webkit-linear-gradient(top,white,whitesmoke);}
+.screen1,.screen2,.screen3 {background: #999;}
+.box .top {color: #333;}

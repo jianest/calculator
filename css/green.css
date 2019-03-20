@@ -1,0 +1,4 @@
+.box .top,.box .content {background-color:green;}
+.box {border-color:green;}
+.box .content .item {border-color:green;background: -webkit-linear-gradient(top,Lightgreen,green);}
+.box .content .item:hover{background: -webkit-linear-gradient(top,green,Lightgreen);}

@@ -1,0 +1,4 @@
+.box .top,.box .content {background-color:	#EE82EE;}
+.box {border-color:	#EE82EE;}
+.box .content .item {border-color:#EE82EE;background: -webkit-linear-gradient(top,#DA70D6,	#EE82EE);}
+.box .content .item:hover{background: -webkit-linear-gradient(top,#EE82EE,#DA70D6);}
